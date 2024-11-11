@@ -1,0 +1,14 @@
+  LogLevel: "debug"
+  port: 9097
+  # driver: "mysql"
+  # connection: "root:kXbXt2nLrL@tcp(localhost:3306)/idx?&parseTime=true"
+  driver: "pgx"
+  connection: "host=localhost user=root password=pass@word1 dbname=idx port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+  RedisHost: "localhost"
+  RedisPort: 6379
+  RedisDB: 0
+  ldap:
+    port: 10389
+    baseDN: "dc=idx,dc=local"
+    ipAddress: "127.0.0.1"
+   
